@@ -1,3 +1,4 @@
+import CreateTypeOfArtWorkTest from "./creator/createTypeOfArtWork/page";
 import BodyHomePage from "./ui/BodyHomePage/BodyHomePage";
 import Navbar from "./ui/Navbar/Navbar";
 
@@ -7,6 +8,7 @@ export default function Home() {
       <Navbar />
       <div className="">
         <BodyHomePage />
+        <CreateTypeOfArtWorkTest />
       </div>
     </div>
   );
